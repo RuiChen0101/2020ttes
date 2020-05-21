@@ -1,0 +1,401 @@
+#banner{
+  width: 100%;
+  height: 1075px;
+  padding: 60px;
+  background:url(../img/index/banner_background.jpg);
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content:  center;
+}
+
+#banner .banner-area{
+  width: 100%;
+}
+
+#banner .banner-area .banner-logo{
+  width: 100%;
+  padding-bottom: 150px;
+  height: auto;
+}
+
+#banner .banner-area .banner-logo img{
+  width: 50%;
+  height: auto;
+}
+
+.banner-deco img{
+  position: absolute;
+  margin-top: -30%;
+  width: 100%;
+  height: auto;
+  z-index: 88;
+}
+
+#about{
+  width: 100%;
+  padding: 120px;
+  background:url(../img/index/section1_background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content:  center;
+}
+
+#about .about-area, #about .about-area .about-title{
+  width: 100%;
+}
+
+#about .about-area .about-title img{
+  width: 40%;
+  height: auto;
+}
+
+#about .about-area .about-content{
+  margin-top: 30px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.fixed-background{
+  background:url(../img/index/section234_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contest-info{
+  width: 100%;
+  padding: 60px 0px;
+}
+
+#contest-info .info-area{
+  width: 100%;
+  margin: 60px 0px;
+}
+
+#contest-info .info-left{
+  width: 100%;
+  margin-top: 30px;
+  padding: 0px 60px;
+}
+
+#contest-info .info-left .col{
+  padding: 0px;
+}
+
+#contest-info .info-title{
+  width: 200px;
+  height: auto;
+}
+
+#contest-info .info-timeline{
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#contest-info .info-left .info-time, #contest-info .info-left .info-line, #contest-info .info-left .info-event{
+  width: 100%;
+}
+
+#contest-info .info-timeline .info-time h3{
+  border: 1px solid #eeb452;
+  margin-bottom: 148px;
+}
+
+#contest-info .info-timeline .info-event h4{
+  margin-bottom: 156px;
+  text-align: left;
+}
+
+#contest-info .info-timeline .info-line img{
+  width: auto;
+  height: 755px;
+  margin-top: 5px;
+}
+
+#contest-info .info-right{
+  width: 100%;
+  margin-top: 30px;
+  padding: 0px 60px;
+}
+
+#contest-info .info-right .info-enroll-reg{
+  margin-top: 100px;
+}
+
+#contest-info .info-right .info-enroll-reg img{
+  width: 100%;
+  height: auto;
+}
+
+#contest-info .info-right .info-enroll-reg, #contest-info .info-right .info-enroll-limit, #contest-info .info-right .info-enroll-link{
+  margin-top: 100px;
+}
+
+#contest-info .info-right .info-enroll-link a{
+  width: 100%;
+  margin-top: 30px;
+}
+
+#games{
+  width: 100%;
+  padding: 60px 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content:  center;
+}
+
+#games .games-area, #games .games-area .games-title, #games .games-area .games-under{
+  width: 100%;
+}
+
+#games .games-area .games-title img{
+  width: 100%;
+  height: 2px;
+}
+
+#games .games-area .games-content{
+  width: 100%;
+  margin: 60px 0px;
+}
+
+#games .games-area .games-content img{
+  width: 50%;
+  height: auto;
+}
+
+#games .games-area .games-under img{
+  width: 100%;
+  height: 2px;
+}
+
+#host{
+  width: 100%;
+  padding: 0px 120px;
+}
+
+#host .host-area{
+  width: 100%;
+}
+
+#host .host-title img{
+  width: 15%;
+}
+
+#host .host-content{
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
+
+#host .host-content .host-logo{
+  width: 100%;
+  margin: 60px 0px;
+}
+
+#host .host-content .host-logo img{
+  width: 50%;
+  height: auto;
+}
+
+#host .host-content .host-intro{
+  margin-top: 60px;
+  text-align: left;
+}
+
+#host .host-content .host-intro a{
+  margin: 0px 10px;
+  font-size: 32px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1281px){
+  #banner{
+    height: 900px;
+  }
+
+  #banner .banner-area .banner-logo{
+    padding-bottom: 90px;
+  }
+
+  #contest-info .info-left{
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  #banner{
+    height: 1700px;
+    padding: 20px;
+  }
+
+  #banner .banner-area .banner-logo img{
+    width: 80%;
+    height: auto;
+  }
+
+  #about{
+    padding: 20px;
+  }
+
+  #contest-info .info-area .info-title{
+    width: 150px;
+    height: auto;
+  }
+
+  #contest-info .info-left{
+    padding: 0px;
+  }
+
+  #contest-info .info-timeline .info-time h3{
+    font-size: 20px;
+    margin-bottom: 180px;
+  }
+
+  #contest-info .info-timeline .info-line img{
+    height: 850px;
+  }
+
+  #contest-info .info-timeline .info-event h4{
+    font-size: 18px;
+    margin-bottom: 186px;
+  }
+}
+
+@media screen and (max-width: 769px){
+  #banner{
+    height: 1020px;
+  }
+
+  #banner .banner-area .banner-logo{
+    width: 100%;
+    padding-bottom: 50px;
+    height: auto;
+  }
+
+  #banner .banner-area .banner-logo img{
+    width: 65%;
+    height: auto;
+  }
+
+  .banner-deco img{
+    margin-top: -25%;
+  }
+
+  #about{
+    padding: 60px 6px 30px 6px;
+  }
+
+  #about .about-area .about-title img{
+    width: 55%;
+  }
+
+  #about .about-area .about-content{
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  #contest-info .info-area{
+    margin: 0px;
+  }
+
+  #contest-info .info-timeline .info-time h3{
+    font-size: 20px;
+    margin-bottom: 119px;
+  }
+
+  #contest-info .info-timeline .info-line img{
+    height: 600px;
+  }
+
+  #contest-info .info-timeline .info-event h4{
+    font-size: 18px;
+    margin-bottom: 126px;
+  }
+
+  #contest-info .info-right{
+    margin-top: 30px;
+    padding: 0px;
+  }
+
+  #contest-info .info-right h4{
+    font-size: 20px;
+  }
+
+  #contest-info .info-left .info-timeline, #contest-info .info-right .info-enroll-reg, #contest-info .info-right .info-enroll-limit, #contest-info .info-right .info-enroll-link{
+    margin-top: 30px;
+  }
+
+  #games{
+    padding: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #banner{
+    height: 680px;
+  }
+
+  #banner .banner-area .banner-logo img{
+    width: 80%;
+  }
+
+  #games .games-area .games-title img{
+    width: 45%;
+  }
+
+  #games .games-area .games-content{
+    margin: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 376px){
+  #banner{
+    height: 650px;
+    padding: 6px;
+  }
+
+  #banner .banner-area .banner-logo{
+    padding-bottom: 30px;
+  }
+
+  #about{
+    padding: 80px 0px 20px 0px;
+  }
+
+  .banner-deco img{
+    margin-top: -20%;
+  }
+
+  #about .about-area .about-title img{
+    width: 70%;
+  }
+
+  #about .about-area .about-content{
+    font-size: 14px;
+  }
+
+  #contest-info .info-timeline .info-time h3{
+    margin-bottom: 70px;
+  }
+
+  #contest-info .info-timeline .info-line img{
+    height: 400px;
+  }
+
+  #contest-info .info-timeline .info-event h4{
+    margin-bottom: 77px;
+  }
+
+  #contest-info .info-right h4{
+    font-size: 17px;
+  }
+}
