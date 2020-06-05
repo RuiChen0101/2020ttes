@@ -337,6 +337,10 @@
   #games{
     padding: 20px 0px;
   }
+
+  #host{
+    padding: 0px;
+  }
 }
 
 @media screen and (max-width: 500px){
@@ -397,5 +401,13 @@
 
   #contest-info .info-right h4{
     font-size: 17px;
+  }
+
+  #host .host-title img{
+    width: 50%;
+  }
+
+  #host .host-content .host-logo{
+    margin: 0px;
   }
 }
